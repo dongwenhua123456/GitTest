@@ -25,6 +25,7 @@ public class HessianClient {
 		IFileUploadService uploader = (IFileUploadService)proxyFactory.create(IFileUploadService.class, url);
 		InputStream in = new BufferedInputStream(new FileInputStream("D:\\111.txt"));
 		uploader.upload("111.txt", in);
+		System.out.println("test");
 	}
 
 }
