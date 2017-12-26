@@ -26,6 +26,7 @@ public class HessianClient {
 		InputStream in = new BufferedInputStream(new FileInputStream("D:\\111.txt"));
 		uploader.upload("111.txt", in);
 		System.out.println("test");
+		System.out.println("test2");
 	}
 
 }
