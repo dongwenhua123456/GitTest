@@ -27,6 +27,7 @@ public class HessianClient {
 		uploader.upload("111.txt", in);
 		System.out.println("test");
 		System.out.println("test2");
+		System.out.println("test3");
 	}
 
 }
